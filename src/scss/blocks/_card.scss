@@ -1,0 +1,49 @@
+.card {
+    position: relative;
+}
+.card__fav--btn {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+}
+
+.card__body {
+    padding: 5.5px 8px;
+    display: grid;
+    gap: 8px;
+}
+.card__title {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    text-transform: capitalize;
+    color: var(--black);
+}
+.card__cols {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 12px;
+}
+.card__desc {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    text-transform: capitalize;
+    color: var(--black);
+}
+.card__price {
+    text-align: right;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 180%;
+    text-transform: capitalize;
+    color: var(--black);
+}
+.card__colors {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
